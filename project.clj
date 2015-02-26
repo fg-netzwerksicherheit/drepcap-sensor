@@ -2,7 +2,7 @@
   :description "drepcap-sensor sniffs network traffic and sends the captured data to a JMS topic."
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/tools.cli "0.2.4"]
-                 [clj-jms-activemq-toolkit "1.0.0"]
+                 [fg-netzwerksicherheit/clj-jms-activemq-toolkit "1.0.0"]
                  [clj-net-pcap "1.6.9995"]
                  [clj-assorted-utils "1.7.0"]]
   :aot :all
